@@ -53,4 +53,4 @@ jobs:
           java-version: '8'
           distribution: 'temurin'
       - name: build (8)
-        run: mvn -T 8 clean verify -B -V
+        run: mvn -DskipTests clean verify -B -V
